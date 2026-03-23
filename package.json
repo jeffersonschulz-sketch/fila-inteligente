@@ -1,9 +1,0 @@
-{
-  "name": "fila-inteligente",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "build": "echo build ok",
-    "start": "echo start"
-  }
-}
