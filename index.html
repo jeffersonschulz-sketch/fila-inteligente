@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Fila Inteligente</title>
+  <title>Qual é a músicae</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <style>
     body { font-family: Arial; padding: 20px; }
@@ -15,7 +15,7 @@
 
 <input id="nome" placeholder="Nome">
 <input id="telefone" placeholder="Telefone">
-<input id="pedido" placeholder="Pedido">
+<input id="musica" placeholder="Pedido">
 <button onclick="entrar()">Entrar</button>
 
 <h2>Fila</h2>
@@ -32,7 +32,7 @@ let travada = false;
 
 function entrar(){
   if(travada){
-    alert("Fila está fechada");
+    alert("Encerrada a fila. Evento logo terminará");
     return;
   }
 
